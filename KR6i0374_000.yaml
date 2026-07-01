@@ -1,0 +1,19 @@
+canonical_identifier: bkk:krp/KR6i0374/x/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+  markers:
+  - {type: 其他, offset: 0, content: 佛說盂蘭盆經略疏, id: KR6i0374_X_000-mulu-1, level: '1'}
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 盂蘭盆經略疏
+  edition:
+    short: x
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X21/X21n0379.xml
+    old_id: X21n0379
+hash: sha256:9bdd0dc9c0ffa586fe6165b94a294fe6cc47bc3b595f277b970752246168fa4d

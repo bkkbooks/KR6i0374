@@ -1,0 +1,62 @@
+canonical_identifier: bkk:krp/KR6i0374/v1
+canonical_location: https://kanripo.org/bkk/KR6i0374/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 盂蘭盆經略疏
+  identifiers:
+    alt_id:
+    - X21n0379
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X21/X21n0379.xml
+    old_id: X21n0379
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0374_000.yaml, hash: 'sha256:9bdd0dc9c0ffa586fe6165b94a294fe6cc47bc3b595f277b970752246168fa4d'}
+  - {seq: 1, filename: KR6i0374_001.yaml, hash: 'sha256:4a44c804c43cfd7a135b4d24a272f4b911a2386568b48062454187854966418a'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0374_001.markers.yaml, hash: 'sha256:2d0af209c3ec502c9941de68dd0b5174d155db0a1a716587c98c8999205fba6c'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6i0374_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 佛說盂蘭盆經略疏
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0374_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 2787
+  label: 佛說盂蘭盆經略疏
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0374_X_001-mulu-1
+    span:
+    - body
+    - 2612
+    - 2612
+  label: No. 379-A
+  type: mulu
+  level: 1
+hash: sha256:3ed9d3f7cb93b38297c5f7c79ea05f7113fded0d32720c84ed0b901e9c835a9b
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR6i0374/X/v1
+canonical_location: https://kanripo.org/bkk/KR6i0374/X/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 盂蘭盆經略疏
+  identifiers:
+    krp: KR6i0374
+    cbeta: X21n0379
+    cbeta_old_id: X21n0379
+    authorityid: CA0003836
+    json_key: X0379
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X21/X21n0379.xml
+    old_id: X21n0379
+  edition:
+    short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0374_000-X.yaml, hash: 'sha256:9bdd0dc9c0ffa586fe6165b94a294fe6cc47bc3b595f277b970752246168fa4d'}
+  - {seq: 1, filename: KR6i0374_001-X.yaml, hash: 'sha256:499a314f84473abdef33d7c28bba248e6656a3be21736e48c53d16710d44eac1'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0374_000-X.markers.yaml, hash: 'sha256:cbea515129153d9e3a468702cd9459ac7d71179117c07bdb25360b54e8115d2b'}
+  - {seq: 1, role: markers, filename: assets/KR6i0374_001-X.markers.yaml, hash: 'sha256:83f6f920943e3833952b4ccdc0ac7bf7fc60b0f1e66d7b12d98c92ccfb95918b'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6i0374_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 佛說盂蘭盆經略疏
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0374_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 2787
+  label: 佛說盂蘭盆經略疏
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0374_X_001-mulu-1
+    span:
+    - body
+    - 2612
+    - 2612
+  label: No. 379-A
+  type: mulu
+  level: 1
+hash: sha256:f9faa5bcbd7b32e1e23f6e019552991a096fbbdde14cee2c311bb2a21aaaaf79
