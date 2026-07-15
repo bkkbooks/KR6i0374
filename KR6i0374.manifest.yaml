@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0374/v1
 canonical_location: https://kanripo.org/bkk/KR6i0374/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 盂蘭盆經略疏
   identifiers:
@@ -22,10 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0374_000.yaml, hash: 'sha256:9bdd0dc9c0ffa586fe6165b94a294fe6cc47bc3b595f277b970752246168fa4d'}
-  - {seq: 1, filename: KR6i0374_001.yaml, hash: 'sha256:499a314f84473abdef33d7c28bba248e6656a3be21736e48c53d16710d44eac1'}
+  - {seq: 1, filename: KR6i0374_001.yaml, hash: 'sha256:51dcd0d237309acc6c818753e25c499ecdf79d2fda6917f7a789344ca87e366b'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0374_000.markers.yaml, hash: 'sha256:b7df41945a019ef27277e621ebe07df88271f25ea154e09b2858d2a4de5bcf7a'}
-  - {seq: 1, role: markers, filename: assets/KR6i0374_001.markers.yaml, hash: 'sha256:472f1b934fcf0db234834994bbf4ab783f66f16e3c41f2ca8eedd75f94d46b41'}
+  - {seq: 1, role: markers, filename: assets/KR6i0374_001.markers.yaml, hash: 'sha256:9be41eb481fb944a9f7cb4dbf61d1ea80d547a147b7d8c993b161a891481e506'}
 table_of_contents:
 - ref:
     seq: 0
@@ -57,4 +57,7 @@ table_of_contents:
   label: No. 379-A
   type: mulu
   level: 1
-hash: sha256:2bdf26c535a3f5ba06b8ca29b64b0c7918f45cc8c0ae05cc9cdf61042cc8caed
+hash: sha256:2faaa4d2a6f191d58834041fc497cebed138fefade2b35146b0164658c3a9fe6
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
